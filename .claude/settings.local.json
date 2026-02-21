@@ -6,7 +6,11 @@
       "Bash(git commit:*)",
       "Bash(git remote add:*)",
       "Bash(git branch:*)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "Bash(npm install:*)",
+      "Bash(vsce package:*)",
+      "Bash(vsce login:*)",
+      "Bash(vsce publish:*)"
     ]
   }
 }
