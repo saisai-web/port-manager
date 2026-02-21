@@ -1,0 +1,99 @@
+{
+  "name": "port-manager",
+  "displayName": "Port Manager",
+  "description": "View listening ports, check availability, and kill processes — all inside VS Code. Works on macOS, Windows, and Linux.",
+  "version": "1.0.0",
+  "publisher": "saiki",
+  "author": {
+    "name": "saiki"
+  },
+  "license": "MIT",
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#0A0A0F",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saiki/vscode-port-manager"
+  },
+  "bugs": {
+    "url": "https://github.com/saiki/vscode-port-manager/issues"
+  },
+  "homepage": "https://github.com/saiki/vscode-port-manager#readme",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "port",
+    "process",
+    "kill",
+    "network",
+    "tcp",
+    "server",
+    "debug",
+    "devtools"
+  ],
+  "activationEvents": [],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "portManager.show",
+        "title": "Port Manager: Show Listening Ports",
+        "icon": "$(list-unordered)"
+      },
+      {
+        "command": "portManager.checkPort",
+        "title": "Port Manager: Check Port Availability"
+      },
+      {
+        "command": "portManager.killPort",
+        "title": "Port Manager: Kill Port"
+      }
+    ],
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "portManager",
+          "title": "Port Manager",
+          "icon": "$(plug)"
+        }
+      ]
+    },
+    "views": {
+      "portManager": [
+        {
+          "type": "webview",
+          "id": "portManager.panel",
+          "name": "Ports"
+        }
+      ]
+    },
+    "menus": {
+      "commandPalette": [
+        { "command": "portManager.show" },
+        { "command": "portManager.checkPort" },
+        { "command": "portManager.killPort" }
+      ]
+    },
+    "keybindings": [
+      {
+        "command": "portManager.show",
+        "key": "ctrl+shift+p ctrl+shift+o",
+        "mac": "cmd+shift+p cmd+shift+o"
+      }
+    ]
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^2.22.0",
+    "@types/vscode": "^1.80.0"
+  },
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
+  }
+}
