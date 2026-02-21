@@ -3,9 +3,9 @@
   "displayName": "Port Manager",
   "description": "View listening ports, check availability, and kill processes — all inside VS Code. Works on macOS, Windows, and Linux.",
   "version": "1.0.0",
-  "publisher": "saiki",
+  "publisher": "port-manager-saiki",
   "author": {
-    "name": "saiki"
+    "name": "port-manager-saiki"
   },
   "license": "MIT",
   "icon": "images/icon.png",
@@ -75,9 +75,15 @@
     },
     "menus": {
       "commandPalette": [
-        { "command": "portManager.show" },
-        { "command": "portManager.checkPort" },
-        { "command": "portManager.killPort" }
+        {
+          "command": "portManager.show"
+        },
+        {
+          "command": "portManager.checkPort"
+        },
+        {
+          "command": "portManager.killPort"
+        }
       ]
     },
     "keybindings": [
