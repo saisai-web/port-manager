@@ -7,8 +7,8 @@
 **View listening ports, check availability, and kill processes — all inside VS Code.**
 
 No more switching to a terminal to find out what's hogging port 3000. Port Manager gives you a dedicated sidebar panel and quick commands to manage your local ports without leaving your editor.
+<img width="851" height="776" alt="スクリーンショット 2026-02-21 11 28 19" src="https://github.com/user-attachments/assets/8cc76ccd-96a3-4cb0-a727-0a54fa258896" />
 
-![Port Manager Screenshot](images/screenshot.png)
 
 ## Features
 
