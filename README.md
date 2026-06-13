@@ -4,6 +4,22 @@
 [![Installs](https://img.shields.io/visual-studio-marketplace/i/port-manager-saiki.port-manager?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=port-manager-saiki.port-manager)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](LICENSE)
 
+---
+
+## ⭐ Smash that Star button — let's make some noise!
+
+> This little extension runs on coffee, late nights, and **GitHub stars**. ☕
+> Every star you give makes a stuck port magically free itself somewhere in the world. 🌍✨
+> So go ahead — **[hit that ⭐ here](https://github.com/saisai-web/port-manager)** and help us hit the front page!
+
+**🤝 Pull Requests are super welcome!**
+Found a bug? Got a wild idea? [Open a PR](https://github.com/saisai-web/port-manager/pulls) — we don't bite. (The ports might, but we promise *we* don't.) 🔌
+
+**👋 Let's connect & grow together!**
+Always looking for new friends — I follow back! [Follow me on GitHub](https://github.com/saisai-web), drop a hello, and let's vibe. Mutual follows = mutual good vibes. 🚀
+
+---
+
 **View listening ports, check availability, and kill processes — all inside VS Code.**
 
 No more switching to a terminal to find out what's hogging port 3000. Port Manager gives you a dedicated sidebar panel and quick commands to manage your local ports without leaving your editor.
